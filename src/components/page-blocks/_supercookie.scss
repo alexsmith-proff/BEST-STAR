@@ -1,0 +1,59 @@
+.supercookie {
+    background-color: #fefefe;
+    color: #000;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    display: none;
+    
+
+    &__title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+    &__btn-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__btn {
+        font-size: 14px;
+        color: #000;
+        margin-right: 40px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    &__btn:last-child {
+        margin-right: 0;
+
+    }
+    &__btn:hover {
+        background-color: #000;
+        color: #fefefe;
+    }
+    @media screen and (max-width: 1024px) {
+        &__title {
+            font-size: 18px;
+        }
+    
+        &__text {
+            font-size: 12px;
+        }
+    
+        &__btn {
+            font-size: 14px;
+        }       
+    }
+}

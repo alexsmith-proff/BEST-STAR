@@ -1,0 +1,50 @@
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(250, 248, 76, 0.933);
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__map {
+        max-width: 835px;
+        overflow: auto;
+        margin-bottom: 70px;
+    }
+}
+
+.coord {
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &__ico{
+        font-size: 38px;
+        margin-right: 30px;
+        color: #000;
+    }
+    &__desc {
+        font-size: 2.5rem;
+        color: #000;
+    }
+    @media screen and (max-width: 768px) {
+        &__ico{
+            font-size: 28px;
+        }
+        &__desc {
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        &__ico{
+            font-size: 26px;
+        }
+        &__desc {
+            font-size: 16px;
+        }        
+    }
+}

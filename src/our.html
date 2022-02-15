@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"Best Star: OUR MISSION",
+"description":"Best Star",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	<main class="main">
+
+		@@include('components/page-blocks/_form.html')
+
+		@@include('components/page-blocks/_supercookie.html',{
+			"title": 'Add "Supеrcookie" to your LocalStorage?',
+			"text": "In оrder tо prоvide yоu with a mоre enjоyable еxperience, we use cооkies tо enable еxtra website functiоnality. Cооkies help us understand what articles yоu are mоst interested in; allоw yоu tо easily share articles оn easily share articlеs оn sоcial netwоrks; allоw us tо pоst cоntent, jоbs, and ads linked tо yоur interests and lоcatiоns; and give many оther website bеnеfits. Fоr mоre infоrmatiоn, plеase chеck оut Cооkie Pоlicy page.",
+		})
+
+		@@include('components/page-blocks/_header.html',{
+			"menu-url1": "/",
+			"item-active1": "",
+
+			"menu-url2": "/play.html",
+			"item-active2": "",
+
+			"menu-url3": "/our.html",
+			"item-active3": "active",
+
+			"menu-url4": "/contacts.html",
+			"item-active4": "",
+
+		})
+
+		@@include('components/page-blocks/_title-page.html',{
+			"addclass": "one-str",
+			"title": "OUR MISSION",
+			"text": "",
+		})
+
+		@@include('components/page-blocks/_above-footer.html', {
+			"text-above": "We want users to enjoy using our website and applications. Also we want to find out which images, colors and visual shapes are the most popular with different people. The more time you're spending on our site — the more useful it will be for our company. That's why we are interested in increasing traffic to our website, we are looking forward to every new user. You are welcome! Good luck!",
+		})
+
+		@@include('components/page-blocks/_footer.html')
+
+	</main>
+	
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

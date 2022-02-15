@@ -1,0 +1,104 @@
+
+chest.png
+size: 878,258
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+file_0002_Layer-35
+  rotate: false
+  xy: 794, 155
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+file_0003_Layer-33
+  rotate: false
+  xy: 144, 12
+  size: 66, 55
+  orig: 66, 55
+  offset: 0, 0
+  index: -1
+file_0004_Layer-31
+  rotate: false
+  xy: 78, 10
+  size: 66, 57
+  orig: 66, 57
+  offset: 0, 0
+  index: -1
+file_0005_Layer-32
+  rotate: false
+  xy: 210, 14
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+file_0006_Layer-28
+  rotate: false
+  xy: 794, 205
+  size: 65, 53
+  orig: 65, 53
+  offset: 0, 0
+  index: -1
+file_0007_Layer-37
+  rotate: false
+  xy: 0, 67
+  size: 309, 191
+  orig: 309, 191
+  offset: 0, 0
+  index: -1
+file_0008_Layer-29
+  rotate: false
+  xy: 276, 14
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+file_0009_Layer-30
+  rotate: false
+  xy: 0, 8
+  size: 78, 59
+  orig: 78, 59
+  offset: 0, 0
+  index: -1
+file_0010_Layer-27
+  rotate: false
+  xy: 342, 0
+  size: 275, 116
+  orig: 275, 116
+  offset: 0, 0
+  index: -1
+file_0011_Layer-36
+  rotate: false
+  xy: 309, 116
+  size: 206, 142
+  orig: 206, 142
+  offset: 0, 0
+  index: -1
+file_0012_Layer-26
+  rotate: false
+  xy: 734, 154
+  size: 60, 104
+  orig: 60, 104
+  offset: 0, 0
+  index: -1
+file_0013_Layer-25
+  rotate: false
+  xy: 515, 126
+  size: 219, 132
+  orig: 219, 132
+  offset: 0, 0
+  index: -1
+file_0014_Layer-24
+  rotate: false
+  xy: 844, 158
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+file_0015_Layer-23
+  rotate: false
+  xy: 617, 5
+  size: 254, 121
+  orig: 254, 121
+  offset: 0, 0
+  index: -1

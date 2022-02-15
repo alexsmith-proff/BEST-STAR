@@ -1,0 +1,30 @@
+.text{
+    padding: 3rem 0;
+    font-size: 25px;
+    line-height: 40px;
+    color: rgba(255, 251, 0, 0.933);;
+}
+@media screen and (max-width: 1280px) {
+    .text{
+        font-size: 20px;
+        line-height: 30px;    
+    }
+}
+@media screen and (max-width: 768px) {
+    .text{
+        font-size: 18px;
+        line-height: 25px;    
+    }
+}
+@media screen and (max-width: 480px) {
+    .text{
+        font-size: 16px;
+        line-height: 20px;    
+    }
+}
+@media screen and (max-width: 320px) {
+    .text{
+        font-size: 14px;
+        line-height: 18px;    
+    }
+}

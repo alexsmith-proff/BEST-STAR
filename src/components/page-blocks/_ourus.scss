@@ -1,0 +1,15 @@
+.our-us {
+    background-color: #fff;
+    padding-bottom: 4rem;
+    &__text {
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #000;
+    }
+    @media screen and (max-width: 480px) {
+        &__text {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+}

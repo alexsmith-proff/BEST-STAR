@@ -1,0 +1,131 @@
+.main-p {
+    min-height: 62rem;
+    padding-top: 22rem;
+    background-image: url(../img/bg-img.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: right;
+    border-bottom: 3px solid rgba(255, 251, 0, 0.933);;
+    &__text-wrap{
+        display: inline-block;
+        max-width: 92rem;
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    &__title {
+        // font-family: 'Abril Fatface', cursive;
+        // font-display: swap;
+        font-size: 6.3rem;
+        font-weight: bold;
+        margin-bottom: 3.7rem;
+        color: #fefefe;
+        &.one-str{
+            margin-right: 50rem;
+            font-size: 6rem;
+        }
+    }
+    &__des {
+        font-size: 3.2rem;
+        font-weight: bold;
+        text-align: center;
+        color: #f38021;
+    }
+    &__btn {
+        display: none;
+    }  
+
+    @media screen and (max-width: 658px) {     
+        &__btn {
+            display: inline-block;
+            font-size: 16px;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 5px 15px;
+            border-radius: 5px;
+            margin: 0 10px;
+            &-wrap{
+                padding-top: 15px;
+            }
+        }
+        
+    }
+
+
+    
+
+
+    @media screen and (max-width: 480px) {
+        &__text-wrap{
+            display: inline-block;
+            max-width: 92rem;
+            text-align: center;
+            padding-right: 52px;
+        }
+    
+    }
+    @media screen and (max-width: 320px) {
+        &__text-wrap{
+            padding-top: 0;
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-p {
+        min-height: 400px;
+        background-size: cover;    
+        &__text-wrap{
+            max-width: 410px;
+        }
+        &__title {
+            font-size: 42px;
+            line-height: 62px;
+            margin-bottom: 20px;
+            &.one-str{
+                font-size: 62px;
+                margin-right: 22px;
+                padding-top: 52px;
+            }
+        }
+        &__des {
+            font-size: 18px;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .main-p {
+        min-height: 400px;
+        padding-top: 80px;
+        text-align: center;
+        background-size: cover;   
+        &__text-wrap{
+            padding-right: 0px;
+        }
+        &__title {
+            font-size: 35px;
+            line-height: 60px;
+            margin-bottom: 60px;
+            &.one-str{
+                font-size: 40px;
+            }
+        }
+        &__desc {
+            font-size: 18px;
+        }
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .main-p {
+        background-position: 10%;
+        padding-top: 50px;
+        &__title {
+            margin-bottom: 20px;
+        }
+    }
+}
+  
+

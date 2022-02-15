@@ -1,0 +1,62 @@
+.privacy {
+    padding: 60px 0;
+    background-color: rgba(255, 251, 0, 0.933);
+    color: #000;
+    &__title {
+        font-size: 4.2rem;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    &__sub-title {
+        font-size: 3.0rem;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    &__text {
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        margin-bottom: 60px;
+        position: relative;
+    }
+
+    @media screen and (max-width: 768px) {
+        &__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        &__sub-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        &__text {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 40px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        &__title {
+            font-size: 18px;
+        }
+        &__sub-title {
+            font-size: 16px;
+        }
+        
+        &__text {
+            font-size: 14px;
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .privacy {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .privacy {
+        padding-top: 30px;
+    }
+}

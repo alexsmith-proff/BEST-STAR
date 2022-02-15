@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<meta name="description" content="Сайт">
+	<meta name="keywords" content="">
+
+	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+	<!-- <link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml"> -->	
+	<!-- <link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp"> -->
+	<link rel="shortcut icon" href="img/favicons/favicon.png" type="image/svg+xml">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"> -->
+
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> -->
+
+	<!-- <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css"> -->
+
+	<!-- <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet"> -->
+
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Сайт</title>
+</head>
+
+<body>
+	<main class="main">
+        
+        <div class="form" style="display: none; max-width: 500px;" id="form-signup">
+    <form class="form__body">
+        <div class="form__body-wrap">
+            <div class="signup-form">
+                <div class="form__item">
+                    <input class="form__input" id="formName-signup" type="text" name="formName" placeholder="NAME" required>
+                </div>
+                <div class="form__item">
+                    <input class="form__input" id="formEmail-signup" type="text" name="formEmail" placeholder="E-MAIL" required>
+                </div>
+                <div class="form__item">
+                    <input class="form__input" id="formPassword-signup" type="text" name="formPassword" placeholder="PASSWORD"
+                        required>
+                </div>
+                <div class="form__item">
+                    <input class="form__input" id="formPasswordConf-signup" type="text" name="formPasswordConf"
+                        placeholder="CONFIRM PASSWORD" required>
+                </div>
+                <button class="form__btn">SING UP</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="form" style="display: none; max-width: 500px;" id="form-login">
+    <form class="form__body">
+        <div class="form__body-wrap">
+            <div class="signup-form">
+                <div class="form__item">
+                    <input class="form__input" id="formName-login" type="text" name="formName" placeholder="NAME" required>
+                </div>
+                <div class="form__item">
+                    <input class="form__input" id="formPassword-login" type="text" name="formPassword" placeholder="Password"
+                        required>
+                </div>
+                <button class="form__btn">LOGIN</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+		<section class="supercookie">
+    <h3 class="supercookie__title">Add "Supеrcookie" to your LocalStorage?</h3>
+    <p class="supercookie__text">In оrder tо prоvide yоu with a mоre enjоyable еxperience, we use cооkies tо enable еxtra website functiоnality. Cооkies help us understand what articles yоu are mоst interested in; allоw yоu tо easily share articles оn easily share articlеs оn sоcial netwоrks; allоw us tо pоst cоntent, jоbs, and ads linked tо yоur interests and lоcatiоns; and give many оther website bеnеfits. Fоr mоre infоrmatiоn, plеase chеck оut Cооkie Pоlicy page.</p>
+    <div class="supercookie__btn-wrap">
+        <button class="supercookie__btn supercookie__btn--close">CLOSE</button>
+        <button class="supercookie__btn supercookie__btn--accept">ACCEPT</button>
+    </div>
+</section>
+
+		<header class="header">
+    <div class="container">
+        <nav class="topnav" id="topnav">
+
+            <a class="topnav__logo" href="/">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+
+            <div class="topnav__soc-btn-wrap">
+                <ul class="topnav__social">
+                <li class="social__ico">
+                    <a href="https://play.google.com/store" class="social__ico-link">
+                        <img src="img/google-play.svg" alt="google-play ico">
+                    </a>
+                </li>
+                <li class="social__ico">
+                    <a href="https://www.apple.com/" class="social__ico-link">
+                        <img src="img/apple.svg" alt="apple ico">
+                    </a>                    
+                </li>
+                <li class="social__ico">
+                    <a href="https://www.facebook.com/" class="social__ico-link">
+                        <img src="img/facebook.svg" alt="facebook ico">
+                    </a>                    
+                </li>
+                <li class="social__ico">
+                    <a href="https://www.instagram.com/" class="social__ico-link">
+                        <img src="img/instagram.svg" alt="instagram ico">
+                    </a>                    
+                </li>
+            </ul>
+
+            <div class="topnav__btn-wrap">
+                <a href="#form-login" class="topnav__btn" data-fancybox>Login</a>
+                <a href="#form-signup" class="topnav__btn register-btn" data-fancybox>Register</a>
+            </div>
+            </div>
+
+            <div class="topnav__burger-menu">
+                <span></span>
+            </div>
+
+            <div class="topnav__menu">
+                <ul class="topnav__menu-wrap">
+                    <li class="topnav__menu-item">
+                        <a class="" href="/">Home</a>
+                    </li>
+                    <li class="topnav__menu-item">
+                        <a class="active" href="/play.html">Play</a>
+                    </li>
+                    <li class="topnav__menu-item">
+                        <a class="" href="/ourmis.html">Our Mission</a>
+                    </li>
+                    <li class="topnav__menu-item">
+                        <a class="" href="/cont.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+		<section class="main-p">
+    <div class="main-p__text-wrap">
+        <h1 class="main-p__title one-str">PLAY</h1>        
+        <div class="main-p__des"></div>
+
+        <div class="main-p__btn-wrap">
+            <a href="#form-login" class="main-p__btn" data-fancybox>Login</a>
+            <a href="#form-signup" class="main-p__btn register-btn" data-fancybox>Register</a>
+        </div>
+        
+    </div>
+</section>
+		
+		<section class="playlist-games">
+    <div class="container">
+        <ul class="playlist-games__list">
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/1/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game1.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">BANDITOS</h3> 
+                        <p class="playlist-games__description">Banditos game is free video slot based on exciting wild west world. Trеasures, duels with pistols and wildlife — enjoy this wonderful adventure and get a lot of emotions!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/2/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game2.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">CHINESE LANTERN</h3> 
+                        <p class="playlist-games__description">Experience the thrill оf Chinese Lantern - free slot machinе dirеctly оn your dеvice! Inspired by the Chinese fairy tales and legends, Chinese Lantern - slоt machine for free on your device! Enjoy and relax!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/4/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game4.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">GOLDEN KNIGHT</h3> 
+                        <p class="playlist-games__description">This crusaders-themed game of chance will entertain you for hours if you're a fan of game games with accurate design! Just enjoy the mediеval music and epic atmosphere. Good luck!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/assets/images/games/5.jpg">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game5.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">ANKSUNAMUN</h3> 
+                        <p class="playlist-games__description">Anksunamun game is free video slot based on exciting ancient world. Giant treasures, pharaohs and pyramids — enjoy this wonderful adventure and get a lot of emotions!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/7/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game7.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">INFINITY SLOTS</h3> 
+                        <p class="playlist-games__description">Dive into the popular franchise universe and play this amazing themed slots. Choose up to 20 lines, place your bets, and watch those reels go! You'll have an endless pleasure!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/3/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game3.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">DIAMOND CAVE</h3> 
+                        <p class="playlist-games__description">Fans of the adventure movies will love this new free slot machine designed for our website. With 5 reels and 20 lines, Diamond Cave videogame will award players with a good volatility balance between frequent wins and great prizes.</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/8/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game8.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">LAMP OF ALADDIN</h3> 
+                        <p class="playlist-games__description">Experience the excitement of Lamp of Aladdin - slot for free directly on your device! Inspired by the famous fairy tale of Aladdin and the magic lamp, Lamp of Aladdin - slot machine for free on your device! Enjoy! Enjoy and relax!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/10/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game10.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">BOOK OF RA</h3> 
+                        <p class="playlist-games__description">The Book of Ra slot is one of the most popular machines that crossed over from the traditional land games to the online version. From the online casinos, the Book of Ra machine also got to the mobile world where it also has a lot of fans! Enjoy and relax!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/11/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game11.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">HALLOWEEN SLOTS</h3> 
+                        <p class="playlist-games__description">Fans of the paranormal will love this skary new free slot machine designed for our website. With 5 reels and 20 lines, Halloween videogame will award players with a good volatility balance between frequent wins and great prizes. Enjoy and relax!</p>                       
+                    </div>                    
+                </a>
+            </li>
+            <li class="playlist-games__item">
+                <a href="https://24slotmachine.com/games/12/index.html">
+                    <div class="playlist-games__wrap">
+                        <img class="playlist-games__item-img" src="img/game12.jpg" alt="game-img">
+                        <h3 class="playlist-games__title">BEACH SLOTS</h3> 
+                        <p class="playlist-games__description">Beautifully designed slot machine interface: bright, colorful and intuitive. And great lucky bonus you'll get a chance to spin the wheel of fortune. Palms, the sea, the sun are designed to set the player on vacation. Enjoy! Enjoy and relax!</p>                       
+                    </div>                    
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+        <section class="text">
+    <div class="container">
+        wildz casino, ideal casino, casino ideal, casino bonus, no deposit bonus casino, no deposit casino, casino slots, win casino, casino games, free casino games, gaming club casino, free casino slots, club player casino, mobile casino, casino live, casino sites, free casino slot games, free casino, vip casino, best casino, poker casino, top casino, casino action, sloto cash casino, facebook casino games, play live casino, exclusive casino, best casino sites, the casino 2020, super casino, casino offers, indian casino, jackpot city casino, myjackpotcasino, jackpot casino, jackpot cash casino, jackpot party casino, jackpot city online casino, all jackpots casino, jackpot wheel casino, jackpot mobile casino, jackpot capital casino, jonny jackpot casino, jackpot city casino mobile online, jackpot party casino facebook, cherry jackpot casino, new casino, new no deposit casino, new casino no deposit bonus, new casino sites, new casino games free, new vegas casino, online casino, casino online, live casino, best online casino, online casino bonus, new online casinos, online casino real money, online casino games, live casino online, online casino no deposit bonus, top online casinos, online casino no deposit, free online casino, casino slots online, free online casino games, online casino real money no deposit, real online casino, win real money online casino for free, virtual casino, online casino free bonus no deposit, bet online casino, best online casino real money, best online casinos that payout, win real money online casino
+    </div>
+</section>
+
+        <section class="mini-foot">
+    <div class="container">
+        <div class="mini-foot__wrap">
+            <p class="mini-foot__description"></p>
+            <h2 class="mini-foot__title">FREE SOCIAL ONLINE CASINO</h2>
+            <p class="mini-foot__subtitle">Get Achievements, Invitе Friends And Play Online For Free</p>
+            <h2 class="mini-foot__title">HIGH PERFORMANCE GRAPHICS</h2>
+            <p class="mini-foot__subtitle">All games optimized for mobile device, Mac OS, Windows, Linux. Register and
+                enjоy our best casino games.</p>
+            
+            <div class="mini-foot__age">18+</div>
+        </div>
+    </div>
+</section>
+
+		﻿<footer class="footer">
+    <div class="container">
+        <div class="footer__ico-container">
+            <div class="footer__ico">
+                <ul class="footer__ico-list">
+                    <li class="footer__ico-item">
+                        <a href="https://apple.com/" class="footer__ico-link">
+                            <img src="img/app.svg" alt="apple ico">
+                        </a>                    
+                    </li>
+                    <li class="footer__ico-item">
+                        <a href="https://android.com/" class="footer__ico-link">
+                            <img src="img/andr.svg" alt="android ico">
+                        </a>
+                    </li>
+                    <li class="footer__ico-item">
+                        <a href="https://www.microsoft.com/" class="footer__ico-link">
+                            <img src="img/windows.svg" alt="windows ico">
+                        </a>                    
+                    </li>                   
+                    <li class="footer__ico-item">
+                        <a href="https://www.linux.org.ru//" class="footer__ico-link">
+                            <img src="img/linux.svg" alt="linux ico">
+                        </a>                    
+                    </li>                    
+                </ul>
+            </div>
+            <div class="footer__ico">
+                <ul class="footer__ico-list">
+                    <li class="footer__ico-item">
+                        <a href="https://www.apple.com/" class="footer__ico-link">
+                            <img src="img/2.svg" alt="apple">
+                        </a>
+                    </li>
+                    <li class="footer__ico-item">
+                        <a href="https://www.instagram.com/" class="footer__ico-link">
+                            <img src="img/4.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="footer__ico-item">
+                        <a href="https://www.facebook.com/" class="footer__ico-link">
+                            <img src="img/3.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="footer__ico-item">
+                        <a href="https://play.google.com/" class="footer__ico-link">
+                            <img src="img/1.svg" alt="google play">
+                        </a>
+                    </li>                    
+                </ul>
+            </div> 
+        </div>
+           
+        <div class="footer__info">
+            <p class="footer__rights">All Rights Reserved site.com © 2021</p>
+            <ul class="footer__links">
+                <li class="footer__link-item">
+                    <a href="/privacy.html" class="footer__link">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="/cond.html" class="footer__link">
+                        Terms & Conditions
+                    </a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="/cookies.html" class="footer__link">
+                        Cookies
+                    </a>
+                </li>
+            </ul>
+        </div>
+            
+    </div>
+
+</footer>
+
+	</main>
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<!-- <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>	
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+<!-- <script src="js/libs.min.js"></script> -->
+<script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+﻿
+@font-face {
+  font-family: 'Riffic';
+  src: url('fonts/Riffic-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/Riffic-Bold.woff') format('woff'), url('fonts/Riffic-Bold.ttf')  format('truetype'), url('fonts/Riffic-Bold.svg#Riffic-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Riffic';
+}
+html{
+    background-color: #381948;
+
+}
+body {
+    font-family: 'Riffic';
+    margin:0;
+    width:100%; 
+    height:100%;
+}
+
+canvas { display:block; } /* To remove the scrollbars */

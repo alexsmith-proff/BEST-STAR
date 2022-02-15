@@ -1,0 +1,39 @@
+<?xml version='1.0' ?>
+	
+<config>
+	<!-- Set the button language-->
+	<spin_btn>SPIN</spin_btn>
+	<hspin_btn>(HOLD TO AUTO SPIN)</hspin_btn>
+	<help_btn>HELP</help_btn>
+	<line_btn>Lines</line_btn>
+	<bet_btn>TOTAL BET</bet_btn>
+	<stop_btn>Stop</stop_btn>
+	<maxbet_btn>MAX BET</maxbet_btn>
+	<back_btn>Back</back_btn>
+	<autofreespin>Auto Freespin</autofreespin>
+	<close>CLOSE</close>
+	<stop>STOP</stop>
+	
+	<!-- Set the language-->
+	<credit>Credit</credit>
+	<winamount>Win Amount</winamount>
+	<stringfreespin>3</stringfreespin>
+	<multi3freespin>1</multi3freespin>
+	<stringmulti3freespin>4</stringmulti3freespin>
+	<multi4freespin>3</multi4freespin>
+	<stringmulti10freespin>5</stringmulti10freespin>
+	<multi5freespin>10</multi5freespin>
+	<addfreespin>8</addfreespin>
+	<stringbouns>3</stringbouns>
+	<bonustut>Choose one of five light balls to get rewards</bonustut>
+	
+	<freespinnote>Congratulations! You get 8 Freespins</freespinnote>
+	<freespincalculator>Congratulations! You won </freespincalculator>
+	<bonusnote>Congratulations! You get Bonus game</bonusnote>
+	<bonuswin>Congratulations! You get </bonuswin>
+	<wildtut>Wild substitutes for all symbols except</wildtut>
+	<bounstut>triggers the casino implosion feature select a casino to implode win up to 500x the triggering bet</bounstut>
+	<freetut>If the player gets at least three freespin symbols, then he shall play the FreeSpin. If the player gets four freespin symbols, then the final win will be multiplied be 3. For five freespin symbols it will be multiplied by 10. </freetut>
+	<freewildtut>During free spins, Wild substitutes for all symbols. Any Wild appearing will be held in place for remaining free spins.</freewildtut>
+	
+</config> 	

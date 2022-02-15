@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"Best Star: PRIVACY POLICY",
+"description":"Best Star",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	<main class="main">
+
+		@@include('components/page-blocks/_form.html')
+
+		@@include('components/page-blocks/_supercookie.html',{
+			"title": 'Add "Supеrcookie" to your LocalStorage?',
+			"text": "In оrder tо prоvide yоu with a mоre enjоyable еxperience, we use cооkies tо enable еxtra website functiоnality. Cооkies help us understand what articles yоu are mоst interested in; allоw yоu tо easily share articles оn easily share articlеs оn sоcial netwоrks; allоw us tо pоst cоntent, jоbs, and ads linked tо yоur interests and lоcatiоns; and give many оther website bеnеfits. Fоr mоre infоrmatiоn, plеase chеck оut Cооkie Pоlicy page.",
+		})
+
+		@@include('components/page-blocks/_header.html',{
+			"menu-url1": "/",
+			"item-active1": "",
+
+			"menu-url2": "/play-games.html",
+			"item-active2": "",
+
+			"menu-url3": "/our.html",
+			"item-active3": "",
+
+			"menu-url4": "/contacts.html",
+			"item-active4": "",
+
+		})
+
+		@@include('components/page-blocks/_title-page.html',{
+			"addclass": "one-str",
+			"title": "PRIVACY POLICY",
+			"text": "",
+		})
+
+        @@include('components/page-blocks/_privacy-policy.html')
+
+		@@include('components/page-blocks/_above-footer.html', {
+			"text-above": "",
+		})
+
+		@@include('components/page-blocks/_footer.html')
+
+	</main>
+	
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

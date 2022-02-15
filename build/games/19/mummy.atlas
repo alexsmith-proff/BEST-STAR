@@ -1,0 +1,83 @@
+
+mummy.png
+size: 586,285
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 268, 39
+  size: 44, 60
+  orig: 44, 60
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 404, 0
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+tresure_0000_Layer-20
+  rotate: false
+  xy: 162, 21
+  size: 106, 78
+  orig: 106, 78
+  offset: 0, 0
+  index: -1
+tresure_0001_Layer-19
+  rotate: false
+  xy: 482, 7
+  size: 104, 130
+  orig: 104, 130
+  offset: 0, 0
+  index: -1
+tresure_0002_Layer-18
+  rotate: false
+  xy: 322, 175
+  size: 170, 110
+  orig: 170, 110
+  offset: 0, 0
+  index: -1
+tresure_0003_Layer-17
+  rotate: false
+  xy: 162, 99
+  size: 160, 186
+  orig: 160, 186
+  offset: 0, 0
+  index: -1
+tresure_0004_Layer-16
+  rotate: false
+  xy: 0, 75
+  size: 81, 210
+  orig: 81, 210
+  offset: 0, 0
+  index: -1
+tresure_0005_Layer-15
+  rotate: false
+  xy: 81, 75
+  size: 81, 210
+  orig: 81, 210
+  offset: 0, 0
+  index: -1
+tresure_0006_Layer-14
+  rotate: false
+  xy: 404, 45
+  size: 78, 130
+  orig: 78, 130
+  offset: 0, 0
+  index: -1
+tresure_0007_Layer-13
+  rotate: false
+  xy: 492, 137
+  size: 82, 148
+  orig: 82, 148
+  offset: 0, 0
+  index: -1
+tresure_0008_Layer-12
+  rotate: false
+  xy: 322, 27
+  size: 82, 148
+  orig: 82, 148
+  offset: 0, 0
+  index: -1

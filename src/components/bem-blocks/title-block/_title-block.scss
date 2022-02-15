@@ -1,0 +1,28 @@
+.head-item {
+    background-color: rgba(255, 251, 0, 0.933);
+    color: #020202;
+    &__container{
+        padding: 3.5rem 0;
+    }
+
+    &__text {
+        font-size: 5.3rem;
+        text-align: center;
+        margin-bottom: 3.7rem;
+    }
+
+    &__description {
+        font-size: 3.2rem;
+        text-align: center;       
+    }
+    @media screen and (max-width: 570px) {
+        &__text {
+            font-size: 16px;
+        }
+    
+        &__description {
+            font-size: 14px;
+        }
+    }
+    
+}

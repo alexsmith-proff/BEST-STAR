@@ -1,0 +1,17 @@
+.title-black {
+    text-align: center;
+    background-color: #000;
+
+    &__text {
+        font-size: 5rem;
+        padding: 5rem 0;
+        color: #fefefe;
+
+    }
+    @media screen and (max-width: 570px) {
+        &__text {
+            font-size: 18px;
+    
+        }
+    }
+}

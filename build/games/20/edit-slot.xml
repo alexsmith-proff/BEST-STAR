@@ -1,0 +1,155 @@
+<?xml version='1.0' ?>
+	
+<config>
+	<!-- Setting your game -->
+	<google_font_name>Luckiest Guy</google_font_name> <!-- Google font name-->
+	<google_font_link>https://fonts.googleapis.com/icon?family=Luckiest+Guy</google_font_link> <!-- Google font link-->
+	<add_credit>enable</add_credit> <!-- Enable or disable add credit button-->
+	<youtube_id>r45t8CgSBeA</youtube_id> <!-- Youtube ID. When player click the add credit button, the promo video will be show -->
+	<youtube_reward>100</youtube_reward> <!-- The credit that player will be get when watch youtube -->
+	<big_win_effect>50</big_win_effect> <!-- When the player got 50 or more credit, the effect will be call -->
+	<level_rank>20</level_rank> <!-- Make reach the level -->
+	<start_credit>50</start_credit> <!-- Start Credit-->
+	
+	<!-- Set the button language-->
+	<spin_btn>Spin</spin_btn>
+	<risk_btn>Risk</risk_btn>
+	<info_btn>Info</info_btn>
+	<line_btn>Line</line_btn>
+	<bet_btn>Bet</bet_btn>
+	<stop_btn>Stop</stop_btn>
+	<auto_btn>Auto Spin</auto_btn>
+	<takewin_btn>Take Win</takewin_btn>
+	
+	<!-- Set the language-->
+	<credit>Credit</credit>
+	<lines>Lines</lines>
+	<winamount>Win</winamount>
+	<bet>Bet</bet>
+	<freespin>Freespin</freespin>
+	<reward>Reward</reward>
+	<lv_up>LV UP! You got</lv_up>
+	<chest_win>You find the chest</chest_win>
+	<scatter_win>Congrat! You have a scatter. Good Luck!</scatter_win>
+	<free_win>Wow, you won a 5 free spin</free_win>
+	<big_win>Big Win!!!</big_win>
+	<risktut>Choose Red, Yellow or Green light to double your winamount!</risktut>
+	<risktut1>If right choose, you will get $</risktut1>	
+	<wildtxt>Can replace any symbol</wildtxt>
+	<freetxt>3 or more symbol, you will get 5 free spin</freetxt>
+	<chesttxt>3 or more symbol, let you open the chest</chesttxt>
+	<scattertxt>3 or more symbol, let you play a scatter</scattertxt>
+	<reward_scatter_text>Good Job!!! Your Reward</reward_scatter_text>
+	<chest_tut>Tap the bag as fast as you can to make it biger and earn big money!!!</chest_tut>
+	<scatter_tut>You must memorize a board with several pairs of disordered card. After a short time they will cover up and you will have to find all the couples and get big reward, but hurry up, time runs against you.</scatter_tut>
+	
+	<!-- Set your rule -->
+	<string_freesymbol>3</string_freesymbol> <!-- 3 or more free icon be display after spin. The player won free spin-->
+	<number_free>5</number_free> <!-- the number of freespin when player won freespin -->
+	<string_scattersymbol>3</string_scattersymbol> <!-- 3 or more scatter icon be display after spin. The player won scatter-->
+	<string_chestsymbol>3</string_chestsymbol> <!-- 3 or more chest icon be display after spin. The player found the chest-->
+	<scatter_credit>10</scatter_credit> <!-- the credit that player will be get when find ONE couples -->
+	<reward_scatter>100</reward_scatter> <!-- the credit that player will be get when find ALL couples -->
+	
+	<!-- range of display after spin of each symbol (minimum:1 , maximum:10) -->
+	<range1>9</range1>
+	<range2>9</range2>
+	<range3>8</range3>
+	<range4>8</range4>
+	<range5>7</range5>
+	<range6>7</range6>
+	<range7>6</range7>
+	<range8>6</range8>
+	<range9>5</range9>
+	<range10>5</range10>
+	<range11>4</range11>
+	<range12>4</range12>
+	<range13>2</range13>
+	<range14>2</range14>
+	<range15>2</range15>
+	
+	<!-- Credit of each symbol when the player win -->
+	<a0>1</a0>
+	<b0>3</b0>
+	<c0>5</c0>
+	
+	<a1>2</a1>
+	<b1>4</b1>
+	<c1>6</c1>
+	
+	<a2>3</a2>
+	<b2>5</b2>
+	<c2>7</c2>
+	
+	<a3>4</a3>
+	<b3>6</b3>
+	<c3>8</c3>
+	
+	<a4>5</a4>
+	<b4>7</b4>
+	<c4>9</c4>
+	
+	<a5>6</a5>
+	<b5>8</b5>
+	<c5>10</c5>
+	
+	<a6>7</a6>
+	<b6>9</b6>
+	<c6>11</c6>
+	
+	<a7>8</a7>
+	<b7>10</b7>
+	<c7>12</c7>
+	
+	<a8>9</a8>
+	<b8>11</b8>
+	<c8>13</c8>
+	
+	<a9>10</a9>
+	<b9>12</b9>
+	<c9>14</c9>
+	
+	<a10>11</a10>
+	<b10>13</b10>
+	<c10>15</c10>
+	
+	<a11>12</a11>
+	<b11>14</b11>
+	<c11>16</c11>
+	
+	<a12>13</a12>
+	<b12>15</b12>
+	<c12>17</c12>
+	
+	<a13>14</a13>
+	<b13>16</b13>
+	<c13>18</c13>
+	
+	<a14>15</a14>
+	<b14>17</b14>
+	<c14>19</c14>
+	
+	<!-- Make Line, DO NOT CHANGE -->
+	<line1>f|g|h|i|j</line1>
+	<line2>a|b|c|d|e</line2>
+	<line3>k|m|n|o|p</line3>
+	<line4>a|g|n|i|e</line4>
+	<line5>k|g|c|i|p</line5>
+	<line6>j|d|h|b|f</line6>
+	<line7>j|o|h|m|f</line7>
+	<line8>p|o|h|b|a</line8>
+	<line9>e|d|h|m|k</line9>
+	<line10>f|m|h|d|j</line10>
+	<line11>f|b|h|o|j</line11>
+	<line12>e|i|h|g|a</line12>
+	<line13>p|i|h|g|k</line13>
+	<line14>e|i|c|g|a</line14>
+	<line15>p|i|n|g|k</line15>
+	<line16>f|g|c|i|j</line16>
+	<line17>f|g|n|i|j</line17>
+	<line18>e|d|n|b|a</line18>
+	<line19>p|o|c|m|k</line19>
+	<line20>a|m|n|o|e</line20>
+	
+	
+</config> 	
